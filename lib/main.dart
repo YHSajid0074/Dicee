@@ -3,56 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//   int a=5;
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         backgroundColor: Colors.black,
-//         appBar: AppBar(
-//           backgroundColor: Colors.greenAccent,
-//           title: Center(child: Text('Dicee')),
-//         ),
-//         body: Row(
-//
-//           children: [
-//             Expanded(
-//               child: Align(
-//                 alignment: Alignment.center,
-//                 child: TextButton(
-//                   onPressed: () {
-// // Add your onPressed code here!
-//                   },
-//                   child: Image(
-//                     image: AssetImage('images/dice$a.png'),
-//                   ),
-//                 ),
-//               ),
-//             ),
-//             Expanded(
-//               child: Align(
-//                 alignment: Alignment.center,
-//                 child: TextButton(
-//                   onPressed: () {
-// // Add your onPressed code here!
-//                     print('Right button got pressed');
-//                   },
-//                   child: Image(
-//                     image: AssetImage('images/dice1.png'),
-//                   ),
-//                 ),
-//               ),
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
